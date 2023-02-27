@@ -221,3 +221,125 @@ a {
   line-height: 1.23;
   color: #171100;
 }
+.popular {
+  padding: 65px 0;
+  margin-top: 135px;
+}
+.popular .popular-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular .popular-top .title {
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 1.26;
+  letter-spacing: -0.02em;
+  color: #171100;
+}
+.popular .popular-top .desc {
+  margin-top: 16px;
+  width: 458px;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #5f5b53;
+}
+.popular .popular-top .control {
+  display: flex;
+  gap: 18px;
+}
+.popular .popular-top .control-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: #ffb900;
+  border: 1px solid #ffb900;
+  border-radius: 50%;
+  background: transparent;
+}
+.popular-top .control-btn:hover {
+  color: #fff;
+  background-color: #ffb900;
+  cursor: pointer;
+}
+.course-list {
+  display: flex;
+  margin-top: 55px;
+  gap: 30px;
+}
+.course-list .course-item {
+  flex: 1;
+  border-radius: 12px;
+}
+.course-list .course-item:hover {
+  background: #ffffff;
+  box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+.course-list .course-item .thumb {
+  width: 100%;
+  height: 278px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+.course-item .info {
+  padding: 16px 22px 22px;
+  border-radius: 0px 0px 12px 12px;
+}
+.course-item .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.course-item .head .title a {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #171100;
+}
+.course-item .head .rate {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.course-item .head span {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #fea31b;
+}
+.course-item .desc {
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #5f5b53;
+}
+.course-item .foot {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.course-item .foot span {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #171100;
+}
+.course-item .foot .btn {
+  background: #171100;
+  border-radius: 25px;
+  color: #fff;
+  border: none;
+  min-width: 118px;
+  padding: 11px 19px;
+}
+.course-item .foot .btn:hover {
+  background: #ffb900;
+  cursor: pointer;
+}
