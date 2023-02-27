@@ -87,9 +87,11 @@ a {
 .hero .body {
   display: flex;
   align-items: center;
+  padding-top: 72px;
 }
 .hero .media-block {
   position: relative;
+  padding-bottom: 65px;
 }
 .hero .media-block .media {
   width: 470px;
