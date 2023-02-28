@@ -427,3 +427,51 @@ a {
 .feedback-content blockquote:hover {
   overflow: auto;
 }
+/* Feature */
+.feature {
+  margin-top: 200px;
+}
+.feature .body {
+  display: flex;
+  justify-content: space-between;
+}
+.feature .thumb {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.feature .thumb:first-child {
+  margin-top: 34px;
+}
+.feature .image {
+  display: flex;
+  gap: 30px;
+}
+.feature .info {
+  width: 41%;
+}
+.feature .info .title {
+  margin-top: 58px;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 1.26;
+  letter-spacing: -0.02em;
+  color: #171100;
+}
+.feature .info .desc {
+  width: 96%;
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #5f5b53;
+}
+.feature .info .btn {
+  margin-top: 32px;
+  background: #ffb900;
+  border-radius: 26px;
+  min-width: 137px;
+  padding: 11px 37px;
+}
