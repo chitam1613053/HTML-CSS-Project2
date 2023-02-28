@@ -295,10 +295,15 @@ a {
   justify-content: space-between;
 }
 .course-item .head .title a {
+  padding-right: 5px;
   font-weight: 600;
   font-size: 1.8rem;
   line-height: 1.67;
   color: #171100;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .course-item .head .rate {
   display: flex;
@@ -318,6 +323,13 @@ a {
   font-size: 1.4rem;
   line-height: 1.86;
   color: #5f5b53;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.course-item .desc:hover {
+  overflow: auto;
 }
 .course-item .foot {
   margin-top: 12px;
@@ -342,4 +354,67 @@ a {
 .course-item .foot .btn:hover {
   background: #ffb900;
   cursor: pointer;
+}
+/* feedback */
+.feedback {
+  margin-top: 135px;
+  padding: 96px 0;
+  background: #2e2100;
+}
+.feedback-item {
+  display: flex;
+  justify-content: space-between;
+}
+.feedback-item .avatar {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.feedback-item .title {
+  margin-top: 18px;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 1.42;
+  color: #f7f7f7;
+}
+.feedback-item .desc {
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #bfbcb3;
+}
+.feedback-item .dots {
+  display: flex;
+  margin-top: 28px;
+}
+.feedback-item .dot {
+  margin-right: 6px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+}
+.feedback-item .dot:hover {
+  background: #ffb900;
+}
+.feedback-content {
+  width: 66%;
+}
+.feedback-content blockquote {
+  margin-left: 30px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 1.54;
+  color: #ffffff;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.feedback-content blockquote:hover {
+  overflow: auto;
 }
