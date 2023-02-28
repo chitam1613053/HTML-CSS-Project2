@@ -459,6 +459,10 @@ a {
   line-height: 1.26;
   letter-spacing: -0.02em;
   color: #171100;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .feature .info .desc {
   width: 96%;
@@ -467,6 +471,10 @@ a {
   font-size: 1.6rem;
   line-height: 1.75;
   color: #5f5b53;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .feature .info .btn {
   margin-top: 32px;
@@ -474,4 +482,15 @@ a {
   border-radius: 26px;
   min-width: 137px;
   padding: 11px 37px;
+}
+.feature .info.second {
+  width: 50%;
+}
+.feature .info .desc.second {
+  width: 100%;
+}
+.feature .thumb.second {
+  width: 470px;
+  height: 440px;
+  margin-top: 0px;
 }
