@@ -592,7 +592,8 @@ a {
 .blog-item .btn {
   margin-top: 12px;
   min-width: 118px;
-  padding: 11px 15px;
+  padding: 11px 21px;
+  font-size: 1.4rem;
 }
 .blog-item .btn:hover {
   background: #ffb900;
@@ -613,4 +614,77 @@ a {
 
 .blog .dot.active {
   background: #ffb900;
+}
+.footer {
+  padding: 96px 0px 28px;
+  background: #2e2100;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-item .desc {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  width: 267px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #bfbcb2;
+}
+.footer-item .icons {
+  display: flex;
+  gap: 18px;
+}
+.footer-item .title {
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #ffffff;
+  position: relative;
+}
+.footer-item .title::after {
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 1px;
+  left: 0px;
+  top: 42px;
+  background: #59554b;
+}
+.footer-item .list-item {
+  font-weight: 400;
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #bfbcb2;
+}
+.footer-item .list-item a {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #bfbcb2;
+}
+.footer-item .list-item b {
+  font-weight: 600;
+  color: #ffffff;
+}
+.footer .copy-right {
+  margin-top: 67px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  text-align: center;
+  color: #807d74;
+  position: relative;
+}
+.footer .copy-right::before {
+  content: "";
+  position: absolute;
+  width: 1170px;
+  height: 1px;
+  left: 0px;
+  top: -28px;
+  background: #59554b;
 }
