@@ -361,8 +361,15 @@ a {
   padding: 96px 0;
   background: #2e2100;
 }
+.feedback-list {
+  display: flex;
+
+  overflow: hidden;
+}
 .feedback-item {
   display: flex;
+  flex-shrink: 0;
+  width: 100%;
   justify-content: space-between;
 }
 .feedback-item .avatar {
@@ -396,8 +403,10 @@ a {
   height: 6px;
   border-radius: 50%;
   background: #634700;
+  cursor: pointer;
 }
-.feedback-item .dot:hover {
+
+.feedback-item .dot.active {
   background: #ffb900;
 }
 .feedback-content {
